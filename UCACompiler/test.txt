@@ -1,0 +1,41 @@
+{Program comment1}
+{Program comment2}
+program ProgramName
+type
+	i=integer;
+	i=integer;
+	j=char;
+	ArrayName=array [0..5] of integer;
+	rec=record
+		integer var1;
+		char var2;
+	end;
+var
+	integer VarName1;
+	char VarName2,VarName3;
+	ArrayName VarName4;
+	i VarName5;
+	rec VarName6;
+procedure ProcedureName1(integer Parament1,Parament2;var integer Parament3);
+begin
+	write(Parament1)
+end
+procedure ProcedureName2(char Parament4);
+begin
+	write(Parament4);
+	return
+end
+begin
+	VarName1:=10;
+	if VarName1<15
+	then VarName1:=5
+	else VarName1:=1
+	fi;
+	while VarName1<20 do
+		VarName1:=VarName1+1
+	endwh;
+	VarName1:=1+3*(7-5);
+	VarName6.var1:=10;
+	VarName4[1]:=1;
+	ProcedureName2(VarName2)
+end.
